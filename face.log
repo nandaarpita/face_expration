@@ -1,0 +1,36 @@
+2021-01-08 17:14:01 19414 1 Status: Connecting to ec2-65-0-170-133.ap-south-1.compute.amazonaws.com...
+2021-01-08 17:14:01 19414 1 Response: fzSftp started, protocol_version=9
+2021-01-08 17:14:01 19414 1 Command: keyfile "/home/user/Downloads/huntill_ai.ppk"
+2021-01-08 17:14:01 19414 1 Command: open "ec2-user@ec2-65-0-170-133.ap-south-1.compute.amazonaws.com" 22
+2021-01-08 17:14:21 19414 1 Error: Connection timed out after 20 seconds of inactivity
+2021-01-08 17:14:21 19414 1 Error: Could not connect to server
+2021-01-08 17:14:21 19414 1 Status: Waiting to retry...
+2021-01-08 17:14:26 19414 1 Status: Connecting to ec2-65-0-170-133.ap-south-1.compute.amazonaws.com...
+2021-01-08 17:14:26 19414 1 Response: fzSftp started, protocol_version=9
+2021-01-08 17:14:26 19414 1 Command: keyfile "/home/user/Downloads/huntill_ai.ppk"
+2021-01-08 17:14:26 19414 1 Command: open "ec2-user@ec2-65-0-170-133.ap-south-1.compute.amazonaws.com" 22
+2021-01-08 17:14:46 19414 1 Error: Connection timed out after 20 seconds of inactivity
+2021-01-08 17:14:46 19414 1 Error: Could not connect to server
+2021-01-08 17:15:26 19414 1 Status: Disconnected from server
+2021-01-08 17:15:26 19414 1 Status: Connecting to ec2-65-0-170-133.ap-south-1.compute.amazonaws.com...
+2021-01-08 17:15:26 19414 1 Response: fzSftp started, protocol_version=9
+2021-01-08 17:15:26 19414 1 Command: keyfile "/home/user/Downloads/huntill_ai.ppk"
+2021-01-08 17:15:26 19414 1 Command: open "ec2-user@ec2-65-0-170-133.ap-south-1.compute.amazonaws.com" 22
+2021-01-08 17:15:46 19414 1 Error: Connection timed out after 20 seconds of inactivity
+2021-01-08 17:15:46 19414 1 Error: Could not connect to server
+2021-01-08 17:15:46 19414 1 Status: Waiting to retry...
+2021-01-08 17:15:51 19414 1 Status: Connecting to ec2-65-0-170-133.ap-south-1.compute.amazonaws.com...
+2021-01-08 17:15:51 19414 1 Response: fzSftp started, protocol_version=9
+2021-01-08 17:15:51 19414 1 Command: keyfile "/home/user/Downloads/huntill_ai.ppk"
+2021-01-08 17:15:51 19414 1 Command: open "ec2-user@ec2-65-0-170-133.ap-south-1.compute.amazonaws.com" 22
+2021-01-08 17:16:11 19414 1 Error: Connection timed out after 20 seconds of inactivity
+2021-01-08 17:16:11 19414 1 Error: Could not connect to server
+2021-01-08 17:16:14 19414 1 Status: Disconnected from server
+2021-01-08 17:16:14 19414 1 Error: Command not supported by this protocol
+2021-01-08 17:37:05 19414 2 Error: Command not supported by this protocol
+2021-01-08 17:58:42 21371 1 Error: Command not supported by this protocol
+2021-01-08 18:00:37 21371 2 Error: Command not supported by this protocol
+2021-01-11 10:05:55 5502 1 Error: Command not supported by this protocol
+2021-01-11 10:06:20 5502 2 Error: Command not supported by this protocol
+2021-01-11 10:06:30 5502 3 Error: Command not supported by this protocol
+2021-01-16 19:22:32 17767 1 Error: Command not supported by this protocol
