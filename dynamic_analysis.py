@@ -110,11 +110,12 @@ def analyze(video_name,candidateUniqueId):
 				cropped_img = np.expand_dims(np.expand_dims(cv2.resize(gray, (48, 48)), -1), 0)
 				prediction = model.predict(cropped_img)
 				maxindex = int(np.argmax(prediction))
-				print(emotion_dict[maxindex])
+				#print(emotion_dict[maxindex])
 				emoji = emotion_dict[maxindex]
 				all_data_list.append(emoji)
 			except:
-				print('err')
+				pass
+
 			#cv2.putText(frame, text+' '+emoji, (startX, y),
 			#cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
 
