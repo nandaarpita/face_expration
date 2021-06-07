@@ -99,9 +99,9 @@ def analyze(video_name,candidateUniqueId):
  			
 			# draw the bounding box of the face along with the associated
 			# probability
-			text = "{:.2f}%".format(confidence * 100)
-			y = startY - 10 if startY - 10 > 10 else startY + 10
-			cv2.rectangle(frame, (startX-20, startY-20), (endX+20, endY+20),(0, 0, 255), 2)
+			#text = "{:.2f}%".format(confidence * 100)
+			#y= startY - 10 if startY - 10 > 10 else startY + 10
+			#cv2.rectangle(frame, (startX-20, startY-20), (endX+20, endY+20),(0, 0, 255), 2)
 			#cv2.imwrite('./down/'+str(time.time())+'.jpg',frame[startY-20:endY+20,startX-20:endX+20])
 			crop_frame = frame[startY-20:endY+20,startX-20:endX+20]
 			emoji = ''
